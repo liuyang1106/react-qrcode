@@ -68,16 +68,13 @@ class ReactQRCode extends React.PureComponent {
 }
 
 ReactQRCode.defaultProps = {
-  value: 'https://github.com/liuyang1106',
-  size: 128,
-  style: {
-    width: 128,
-    height: 128
-  },
+  value: '', // 需要转换的参数
+  size: 128, // 二维码大小(宽，高)
+  style: {}, // canvas样式
   level: 'L',
   bgColor: 'white',
   fgColor: 'black',
-  scale: window.devicePixelRatio
+  scale: window.devicePixelRatio || 1 // 比例
 };
 
 export default ReactQRCode;

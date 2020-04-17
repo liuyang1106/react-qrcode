@@ -22,11 +22,11 @@ ReactDOM.render(
 
 ## 可用属性
 ```javascript
-  value: 'https://github.com/liuyang1106',
-  size: 128,
-  style: {},
+  value: '', // 需要转换的参数
+  size: 128, // 二维码大小
+  style: {}, // canvas样式
   level: 'L',
   bgColor: 'white',
   fgColor: 'black',
-  scale: 1
+  scale: window.devicePixelRatio || 1, // 比例
 ```

@@ -1,6 +1,6 @@
 {
   "name": "react-qrcode-component",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "react qrcode qr.js",
   "main": "lib/index.js",
   "scripts": {
@@ -20,6 +20,7 @@
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.5",
     "@babel/preset-react": "^7.9.4",
+    "babel-cli": "^6.26.0",
     "babel-loader": "^8.1.0",
     "html-webpack-plugin": "^4.2.0",
     "webpack": "^4.42.1",
